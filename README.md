@@ -1,36 +1,44 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
+# SALT: Sales Autocompletion Linked Business Tables Dataset
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![License](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-blue)]()
 
-# Containing Files
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
 
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
+#### News
+- **10/29/2024:** Preliminary repository created
 
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+This repository **will contain** the data and the code for our paper [**SALT: Sales Autocompletion Linked Business Tables Dataset**](https://openreview.net/forum?id=UZbELpkWIr#discussion) to be presented at [NeurIPS'24 Table Representation Workshop](https://table-representation-learning.github.io/).
 
-## Requirements
+### Abstract
+Foundation models, particularly those that incorporate Transformer architectures, have demonstrated exceptional performance in domains such as natural language processing and image processing. Adapting these models to structured data, like tables, however, introduces significant challenges. These difficulties are even more pronounced when addressing multi-table data linked via foreign key, which is prevalent in the enterprise realm and crucial for empowering business use-cases. Despite its substantial impact, the research focusing on such linked business tables within enterprise settings remains a significantly important yet underexplored domain.
+To address this, we introduce a curated dataset sourced from an Enterprise Resource Planning (ERP) system, featuring extensive linked tables. This dataset is specifically designed to support research endeavors in table representation learning. By providing access to authentic enterprise data, our goal is to potentially enhance the effectiveness and applicability of models for real-world business contexts.
 
-## Download and Installation
 
-## Known Issues
-<!-- You may simply state "No known issues. -->
+### Information
+![Table Schema of SALT Dataset](images/schema.svg?raw=true "SALT Schema")
+*Table Schema of SALT Dataset*
+
+![Screenshot of a Salesorder Input Mask](images/SAP_S4HANA_SalesOrder_App.png?raw=true "Salesorder Input Mask")
+*Example Input Mask of a Salesorder App using SAP S4/HANA*
+
+## Citations
+If you use this code in your research or want to refer to our work, please cite:
+
+```
+@inproceedings{
+klein2024salt,
+title={{SALT}: Sales Autocompletion Linked Business Tables Dataset},
+author={Tassilo Klein and Clemens Biehl and Margarida Costa and Andre Sres and Jonas Kolk and Johannes Hoffart},
+booktitle={NeurIPS 2024 Third Table Representation Learning Workshop},
+year={2024},
+url={https://openreview.net/forum?id=UZbELpkWIr}
+}
+```
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/SALT/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
@@ -38,4 +46,5 @@ For additional support, [ask a question in SAP Community](https://answers.sap.co
 If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 
 ## License
-Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+Copyright (c) 2024 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the CC-BY-NC-SA Software License, version 4.0 except as noted otherwise in the [LICENSE](LICENSES/CC-BY-NC-4.0.txt) file.
+
