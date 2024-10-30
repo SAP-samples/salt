@@ -23,6 +23,12 @@ To address this, we introduce a curated dataset sourced from an Enterprise Resou
 ![Screenshot of a Salesorder Input Mask](images/SAP_S4HANA_SalesOrder_App.png?raw=true "Salesorder Input Mask")
 *Example Input Mask of a Salesorder App using SAP S4/HANA*
 
+## Requirements
+N/A
+
+## Known Issues
+No known issues
+
 ## Citations
 If you use this code in your research or want to refer to our work, please cite:
 
