@@ -1,6 +1,8 @@
 # SALT: Sales Autocompletion Linked Business Tables Dataset
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-blue)]()
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/salt)](https://api.reuse.software/info/github.com/sap-samples/salt)
+
 
 
 
