@@ -21,7 +21,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 This repository **will contain** the data and the code for our paper [**SALT: Sales Autocompletion Linked Business Tables Dataset**](https://openreview.net/forum?id=UZbELpkWIr#discussion) to be presented at [NeurIPS'24 Table Representation Workshop](https://table-representation-learning.github.io/).
 
 ### Abstract
-Foundation models, particularly those that incorporate Transformer architectures, have demonstrated exceptional performance in domains such as natural language processing and image processing. Adapting these models to structured data, like tables, however, introduces significant challenges. These difficulties are even more pronounced when addressing multi-table data linked via foreign key, which is prevalent in the enterprise realm and crucial for empowering business use-cases. Despite its substantial impact, the research focusing on such linked business tables within enterprise settings remains a significantly important yet underexplored domain.
+Foundation models, particularly those that incorporate Transformer architectures, have demonstrated exceptional performance in domains such as natural language processing and image processing. Adapting these models to structured data, like tables, however, introduces significant challenges. These difficulties are even more pronounced when addressing multi-table data linked via foreign key, which is prevalent in the enterprise realm and crucial for empowering business use cases. Despite its substantial impact, research focusing on such linked business tables within enterprise settings remains a significantly important yet underexplored domain.
 To address this, we introduce a curated dataset sourced from an Enterprise Resource Planning (ERP) system, featuring extensive linked tables. This dataset is specifically designed to support research endeavors in table representation learning. By providing access to authentic enterprise data, our goal is to potentially enhance the effectiveness and applicability of models for real-world business contexts.
 
 ### Usage
@@ -82,6 +82,7 @@ url={https://openreview.net/forum?id=UZbELpkWIr}
 ```
 
 ## Roadmap
+- [ ] Integration into [RelBench](https://relbench.stanford.edu/)
 - [x] Release dataset
 
 ## How to obtain support
