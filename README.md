@@ -60,6 +60,13 @@ N/A
 ## Known Issues
 No known issues
 
+### Authors:
+ - [Tassilo Klein](https://tjklein.github.io/)
+ - [Clemens Biehl](https://www.linkedin.com/in/clemens-biehl-43a39a117/)
+ - [Margarida Costa](https://www.linkedin.com/in/mariamargaridacosta/)
+ - [Jonas Kolk](https://www.linkedin.com/in/jonas-kolk-b8a94b123/)
+ - [Johannes Hoffart](https://www.linkedin.com/in/johanneshoffart/)
+
 ## Citations
 If you use this code in your research or want to refer to our work, please cite:
 
