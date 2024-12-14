@@ -13,7 +13,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 
 #### News
-- **10/29/2024:** Preliminary repository created
+- **12/13/2024:** :confetti_ball: Provided data :tada:
+- 10/29/2024: Preliminary repository created
 
 
 ## Description
