@@ -24,6 +24,28 @@ This repository **will contain** the data and the code for our paper [**SALT: Sa
 Foundation models, particularly those that incorporate Transformer architectures, have demonstrated exceptional performance in domains such as natural language processing and image processing. Adapting these models to structured data, like tables, however, introduces significant challenges. These difficulties are even more pronounced when addressing multi-table data linked via foreign key, which is prevalent in the enterprise realm and crucial for empowering business use-cases. Despite its substantial impact, the research focusing on such linked business tables within enterprise settings remains a significantly important yet underexplored domain.
 To address this, we introduce a curated dataset sourced from an Enterprise Resource Planning (ERP) system, featuring extensive linked tables. This dataset is specifically designed to support research endeavors in table representation learning. By providing access to authentic enterprise data, our goal is to potentially enhance the effectiveness and applicability of models for real-world business contexts.
 
+### Usage
+
+Example of loading the tables with pandas. Unless already installed, install it with: 
+
+```bash
+pip install pandas
+```
+
+```python
+import pandas as pd
+
+# load the table data from the parquet files
+salesdocuments = pd.read_parquet("data/I_SalesDocument.parquet")
+salesdocument_items = pd.read_parquet("data/I_SalesDocumentItem.parquet")
+customers = pd.read_parquet("data/I_Customer.parquet")
+addresses = pd.read_parquet("data/I_AddrOrgNamePostalAddress.parquet")
+
+# show the first elements
+salesdocuments.head()
+
+```
+
 
 ### Information
 ![Table Schema of SALT Dataset](images/schema.svg?raw=true "SALT Schema")
