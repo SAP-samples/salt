@@ -82,7 +82,7 @@ url={https://openreview.net/forum?id=UZbELpkWIr}
 ```
 
 ## Roadmap
-- [ ] Integration into [RelBench](https://relbench.stanford.edu/)
+- [ ] Integration into [RelBench](https://relbench.stanford.edu/), Feb'25
 - [x] Release dataset
 
 ## How to obtain support
