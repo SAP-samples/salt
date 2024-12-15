@@ -52,7 +52,7 @@ salesdocuments.head()
 *Table Schema of SALT Dataset*
 
 ![Screenshot of a Salesorder Input Mask](images/SAP_S4HANA_SalesOrder_App.png?raw=true "Salesorder Input Mask")
-*Example Input Mask of a Salesorder App using SAP S4/HANA*
+*Example Input Mask of a Salesorder App using SAP S/4HANA*
 
 ## Requirements
 N/A
