@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 
 #### News
-- **12/15/2024:** :confetti_ball: Dataset now also available on Hugging Face :tada:
+- **12/15/2024:** :confetti_ball: Preliminatry dataset now also available on Hugging Face. Train/test split will be provided in the next days :tada:
 - 12/13/2024: Provided data 
 - 10/29/2024: Preliminary repository created
 
