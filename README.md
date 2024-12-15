@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 
 #### News
-- **12/15/2024:** :confetti_ball: Dataset now also available on HuggingFace :tada:
+- **12/15/2024:** :confetti_ball: Dataset now also available on Hugging Face :tada:
 - 12/13/2024: Provided data 
 - 10/29/2024: Preliminary repository created
 
@@ -25,9 +25,9 @@ This repository contains the dataset from our paper [**SALT: Sales Autocompletio
 Foundation models, particularly those that incorporate Transformer architectures, have demonstrated exceptional performance in domains such as natural language processing and image processing. Adapting these models to structured data, like tables, however, introduces significant challenges. These difficulties are even more pronounced when addressing multi-table data linked via foreign key, which is prevalent in the enterprise realm and crucial for empowering business use cases. Despite its substantial impact, research focusing on such linked business tables within enterprise settings remains a significantly important yet underexplored domain.
 To address this, we introduce a curated dataset sourced from an Enterprise Resource Planning (ERP) system, featuring extensive linked tables. This dataset is specifically designed to support research endeavors in table representation learning. By providing access to authentic enterprise data, our goal is to potentially enhance the effectiveness and applicability of models for real-world business contexts.
 
-### Dataset on HuggingFace
+### Dataset on Hugging Face
 
-The dataset is now also available via the HuggingFace dataset platform. Check-out: [SALT](https://huggingface.co/datasets/sap-ai-research/SALT)
+The dataset is now also available via the Hugging Face dataset platform. Check-out: [SALT](https://huggingface.co/datasets/sap-ai-research/SALT)
 
 ```python
 from datasets import load_dataset
