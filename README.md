@@ -75,6 +75,7 @@ No known issues
  - [Tassilo Klein](https://tjklein.github.io/)
  - [Clemens Biehl](https://www.linkedin.com/in/clemens-biehl-43a39a117/)
  - [Margarida Costa](https://www.linkedin.com/in/mariamargaridacosta/)
+ - [André Sreš](https://www.linkedin.com/in/andr%C3%A9-sre%C5%A1-937096160/)
  - [Jonas Kolk](https://www.linkedin.com/in/jonas-kolk-b8a94b123/)
  - [Johannes Hoffart](https://www.linkedin.com/in/johanneshoffart/)
 
