@@ -13,7 +13,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 
 #### News
-- **12/15/2024:** :confetti_ball: Preliminatry dataset now also available on Hugging Face. Train/test split will be provided in the next days :tada:
+- **12/19/2024:** :confetti_ball: Train/test split will be provided :tada:
+- 12/15/2024: Preliminatry dataset available on Hugging Face.
 - 12/13/2024: Provided data 
 - 10/29/2024: Preliminary repository created
 
@@ -37,7 +38,29 @@ ds = load_dataset("sap-ai-research/SALT")
 
 ### Usage
 
-Example of loading the tables with pandas. Unless already installed, install it with: 
+#### Example of loading the tables with Hugging Face datasets
+Unless pandas library is already installed, install it with:
+
+```bash
+pip install pandas
+```
+
+```python
+from datasets import load_dataset
+
+dataset_name = "sap-ai-research/SALT"
+split = "train"  # use "train" or "test"
+salesdocuments = load_dataset(dataset_name, "salesdocuments", split=split)
+salesdocument_items = load_dataset(dataset_name, "salesdocument_items", split=split)
+customers = load_dataset(dataset_name, "customers", split=split)
+addresses = load_dataset(dataset_name, "addresses", split=split)
+
+# you can also load the joined table which combines the four tables in one
+joined_table = load_dataset(dataset_name, "joined_table", split=split)
+```
+
+#### Example of loading the tables with pandas
+Unless pandas library is already installed, install it with:
 
 ```bash
 pip install pandas
@@ -47,14 +70,14 @@ pip install pandas
 import pandas as pd
 
 # load the table data from the parquet files
-salesdocuments = pd.read_parquet("data/I_SalesDocument.parquet")
-salesdocument_items = pd.read_parquet("data/I_SalesDocumentItem.parquet")
-customers = pd.read_parquet("data/I_Customer.parquet")
-addresses = pd.read_parquet("data/I_AddrOrgNamePostalAddress.parquet")
+salesdocuments = pd.read_parquet("I_SalesDocument_train.parquet")
+salesdocument_items = pd.read_parquet("I_SalesDocumentItem_train.parquet")
+customers = pd.read_parquet("I_Customer.parquet")
+addresses = pd.read_parquet("I_AddrOrgNamePostalAddress.parquet")
+joined = pd.read_parquet("JoinedTables_train.parquet")
 
 # show the first elements
 salesdocuments.head()
-
 ```
 
 
