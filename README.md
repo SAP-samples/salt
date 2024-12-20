@@ -103,7 +103,7 @@ No known issues
  - [Johannes Hoffart](https://www.linkedin.com/in/johanneshoffart/)
 
 ## Citations
-If you use this code in your research or want to refer to our work, please cite:
+If you use this dataset in your research or want to refer to our work, please cite:
 
 ```
 @inproceedings{
