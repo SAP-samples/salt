@@ -59,27 +59,6 @@ addresses = load_dataset(dataset_name, "addresses", split=split)
 joined_table = load_dataset(dataset_name, "joined_table", split=split)
 ```
 
-#### Example of loading the tables with pandas
-Unless pandas library is already installed, install it with:
-
-```bash
-pip install pandas
-```
-
-```python
-import pandas as pd
-
-# load the table data from the parquet files
-salesdocuments = pd.read_parquet("I_SalesDocument_train.parquet")
-salesdocument_items = pd.read_parquet("I_SalesDocumentItem_train.parquet")
-customers = pd.read_parquet("I_Customer.parquet")
-addresses = pd.read_parquet("I_AddrOrgNamePostalAddress.parquet")
-joined = pd.read_parquet("JoinedTables_train.parquet")
-
-# show the first elements
-salesdocuments.head()
-```
-
 
 ### Information
 ![Table Schema of SALT Dataset](images/schema.svg?raw=true "SALT Schema")
