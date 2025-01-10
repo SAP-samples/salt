@@ -7,13 +7,15 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 # SALT: Sales Autocompletion Linked Business Tables Dataset
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![License](https://img.shields.io/badge/license-CC--BY--NC--SA--4.0-blue)]()
+[![arXiv](https://img.shields.io/badge/arXiv-2501.03413-29d634.svg)](https://arxiv.org/abs/2501.03413)
 [![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/salt)](https://api.reuse.software/info/github.com/sap-samples/salt)
 
 
 
 
 #### News
-- **12/22/2024:** :confetti_ball: Data available via Hugging Face only :tada:
+- **01/11/2025:** :confetti_ball: Updated paper (some results changed due to minor dataset changes, screenshots added to appendix) :tada:
+- 12/22/2024: Data available via Hugging Face only
 - 12/19/2024: Train/test split provided
 - 12/15/2024: Preliminatry dataset available on Hugging Face.
 - 12/13/2024: Provided data 
