@@ -14,7 +14,8 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 
 #### News
-- **01/11/2025:** :confetti_ball: Updated paper (some results changed due to minor dataset changes, screenshots added to appendix) :tada:
+- **07/10/2025: 🎉🎉🎉 Dataset is now integrated into [RelBench](https://github.com/snap-stanford/relbench) 🎉🎉🎉**
+- 01/11/2025: Updated paper (some results changed due to minor dataset changes, screenshots added to appendix) 
 - 12/22/2024: Data available via Hugging Face only
 - 12/19/2024: Train/test split provided
 - 12/15/2024: Preliminatry dataset available on Hugging Face.
@@ -99,7 +100,7 @@ url={https://openreview.net/forum?id=UZbELpkWIr}
 ```
 
 ## Roadmap
-- [ ] Integration into [RelBench](https://relbench.stanford.edu/), Feb'25
+- [x] Integration into [RelBench](https://relbench.stanford.edu/), Feb'25
 - [x] Release dataset
 
 ## How to obtain support
